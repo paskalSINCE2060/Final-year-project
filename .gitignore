@@ -1,0 +1,39 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Logs
+logs
+*.log
+logs/*.log
+
+# Dependency directories
+client/node_modules/
+server/node_modules/
+
+# Environment variables
+.env
+
+# Build output
+build/
+dist/
+
+# Coverage directory used by tools like istanbul
+coverage/
+
+# Misc
+.DS_Store
+
+# IDE specific
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# React Native
+.expo/
+.expo-shared/

@@ -1,0 +1,74 @@
+body {
+    font-family: Poppins;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.cart {
+    width: 80%;
+    margin: 50px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.cart-item:last-child {
+    border-bottom: none;
+}
+
+.product {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.product img {
+    width: 100px;
+}
+
+.product span {
+    width: 200px;
+}
+
+.qty {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.qty p {
+    width: 30px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.qty-btn {
+    background-color: #ef4036;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.price {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.action .remove-btn {
+    color: #ef4036;
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: 14px;
+}
